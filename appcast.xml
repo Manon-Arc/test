@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Vienne App Updates</title>
+    <item>
+      <title>Version 2.0.2</title>
+      <description>Nouvelle version avec corrections de bugs.</description>
+      <pubDate>Wed, 30 Oct 2025 12:00:00 +0000</pubDate>
+
+      <!-- 💡 c'est cette ligne que Upgrader lit pour comparer les versions -->
+      <enclosure 
+        url="https://fakeurl.com/vienne-2.0.2.apk"
+        sparkle:version="2.0.2"
+        sparkle:shortVersionString="2.0.2"
+        sparkle:os="android" />
+    </item>
+  </channel>
+</rss>
